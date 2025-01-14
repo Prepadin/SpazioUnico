@@ -219,7 +219,7 @@ return (
               <SelectItem value="La cucina">La cucina</SelectItem>
               <SelectItem value="Sala da pranzo">Sala da pranzo</SelectItem>
               <SelectItem value="Stanza dei bambini">Stanza dei bambini</SelectItem>
-              <SelectItem value="L'ufficio">L'ufficio</SelectItem>
+              <SelectItem value="L'ufficio">L&apos;ufficio</SelectItem>
               </SelectContent>
           </Select>
         </div>
@@ -329,7 +329,7 @@ return (
               <Upload className="w-12 h-12 text-gray-400 mb-2" />
               <p className="text-sm text-gray-500">Inserisci una foto della stanza</p>
               <p className="text-sm text-gray-400 mt-2">- o -</p>
-              <p className="text-sm text-blue-500">Fare clic e fissare l'immagine della stanza</p>
+              <p className="text-sm text-blue-500">Fare clic e fissare l&apos;immagine della stanza</p>
               <input
                 id="fileInput"
                 type="file"
@@ -367,7 +367,7 @@ return (
               download="generated_image.png"
               className="mt-4 inline-flex items-center px-6 py-3 bg-blue-600 text-white font-medium rounded-md shadow-md hover:bg-blue-700 focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 transition duration-300 ease-in-out"
             >
-              Scarica l'immagine
+              Scarica l&apos;immagine
             </a>
           </div>
         ) : (
