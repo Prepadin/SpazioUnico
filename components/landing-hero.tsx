@@ -53,7 +53,7 @@ export const LandingHero = () => {
       </div>
 
       <div className="text-sm md:text-xl font-light text-zinc-400">
-      In soli due clic e con l'aiuto dell'intelligenza artificiale, trasforma le tue idee in interni professionali.
+      In soli due clic e con l&apos;aiuto dell&apos;intelligenza artificiale, trasforma le tue idee in interni professionali.
       </div>
 
       <div className="">

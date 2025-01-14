@@ -32,7 +32,7 @@ export const LandingNavbar = () => {
         </div>
 
         <h1 className={cn('text-2xl font-bold text-white', font.className)}>
-        Spazio Unico
+          SPAZIO UNICO
         </h1>
       </Link>
 
