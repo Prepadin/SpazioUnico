@@ -10,7 +10,7 @@ export const LandingFooters = () => {
               <span className="text-xl text-white font-bold">SPAZIO UNICO</span>
               <span className="bg-primary text-primary-foreground text-xs px-1 rounded">IA</span>
             </div>
-            <p className="text-sm text-zinc-400 text-muted-foreground">Progetti spazi interni con l'intelligenza artificiale.</p>
+            <p className="text-sm text-zinc-400 text-muted-foreground">Progetti spazi interni con l&apos;intelligenza artificiale.</p>
             <div className="text-xs text-zinc-400 text-muted-foreground">
               <p>© 2025 All rights reserved</p>
               <p>SPAZIO UNICO® is a registered trademark.</p>
