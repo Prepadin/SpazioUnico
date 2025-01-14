@@ -54,7 +54,7 @@ const { isSignedIn } = useAuth()
     <div className="py-12 px-4">
       <div className="text-center space-y-4 mb-8">
         <h1 className="text-4xl text-white font-bold tracking-tight sm:text-5xl">
-        Inizia a rimodellare<br />la tua casa con l'intelligenza artificiale
+        Inizia a rimodellare<br />la tua casa con l intelligenza artificiale
         </h1>
         {/* <div className="inline-flex items-center rounded-full border p-1 bg-muted/50">
           <button
