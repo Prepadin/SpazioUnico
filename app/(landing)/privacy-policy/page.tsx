@@ -6,28 +6,28 @@ export default function PrivacyPolicy() {
   return (
     <>
       <Head>
-        <title>Politika Zasebnosti - Opremi Me</title>
+        <title>Politica sulla riservatezza - Spazio Unico</title>
         <meta name="description" content="Privacy Policy for Room AI" />
         <meta name="robots" content="noindex" />
       </Head>
       <LandingNavbar />
       <main className="container mx-auto px-4 py-8 bg-white rounded-lg shadow-lg">
-        <h1 className="text-3xl font-bold mb-6">Politika Zasebnosti</h1>
+        <h1 className="text-3xl font-bold mb-6">Politica sulla riservatezza</h1>
 
         <section className="mb-12">
        
           <p>
-          Storitev Opremi Me, ki jo izvaja Prepad d.o.o. ceni in spoštuje zasebnost naših uporabnikov. 
-          Ta pravilnik o zasebnosti pojasnjuje, kako zbiramo, uporabljamo in varujemo vaše osebne podatke, 
-          ko dostopate do naših storitev in jih uporabljate.
+          Il servizio Spazio Unico, fornito da Prepad d.o.o. valorizziamo e rispettiamo la privacy dei nostri utenti.
+          Questa informativa sulla privacy spiega come raccogliamo, utilizziamo e proteggiamo le tue informazioni personali,
+          quando accedi e utilizzi i nostri servizi.
 
-      Podatki, ki jih zbiramo
-Od vas zbiramo podatke, ko uporabljate naše storitve, vključno, vendar ne omejeno na:
+          Dati che raccogliamo
+          Raccogliamo informazioni da te quando utilizzi i nostri servizi, inclusi, a titolo esemplificativo ma non esaustivo:
 <ul className="list-disc list-inside ml-4">
-<li>1. Podatki o računu: Ko ustvarite račun pri Opremi Me, zbiramo vaše ime, e-poštni naslov in vse druge podatke, ki jih navedete med postopkom registracije.</li>
-<li>2. Podatki o uporabi: zbiramo podatke, povezane z vašo uporabo naših storitev, kot so slike, ki jih ustvarite, datum in čas vaše uporabe ter druga dejanja, ki jih izvajate znotraj naše platforme.</li>
+<li>1. Informazioni sull'account: quando crei un account con Spazio Unico, raccogliamo il tuo nome, indirizzo email e qualsiasi altra informazione fornita durante la procedura di registrazione.</li>
+<li>2. Dati di utilizzo: raccogliamo dati relativi al tuo utilizzo dei nostri servizi, come le immagini che crei, la data e l'ora del tuo utilizzo e altre azioni che intraprendi all'interno della nostra piattaforma.</li>
 
-<li>3. Analitični podatki: analitična orodja uporabljamo za zbiranje informacij o tem, kako uporabniki komunicirajo z našimi storitvami, vključno z obiskanimi stranmi, trajanjem obiska in drugimi vedenjskimi podatki, vendar ne omejeno nanje.</li>
+<li>3. Dati analitici: utilizziamo strumenti analitici per raccogliere informazioni su come gli utenti interagiscono con i nostri servizi, inclusi, a titolo esemplificativo ma non esaustivo, le pagine visitate, la durata della visita e altri dati comportamentali.</li>
 </ul>
           </p>
         </section>
@@ -35,18 +35,18 @@ Od vas zbiramo podatke, ko uporabljate naše storitve, vključno, vendar ne omej
         <section className="mb-12">
           
           <p>
-          Uporaba zunanjih storitev
-Za zagotavljanje naših storitev se lahko zanašamo na storitve in platforme tretjih oseb. Čeprav se po svojih najboljših močeh trudimo zagotoviti, da so te zunanje storitve skladne z našimi standardi zasebnosti, ne moremo zagotoviti zaupnosti vaših podatkov, ko jih obdelujejo ali shranjujejo te zunanje storitve.
+          Utilizzo di servizi esterni
+          Potremmo avvalerci di servizi e piattaforme di terze parti per fornire i nostri servizi. Sebbene facciamo ogni sforzo per garantire che questi servizi esterni rispettino i nostri standard sulla privacy, non possiamo garantire la riservatezza delle tue informazioni quando vengono elaborate o archiviate da questi servizi esterni.
 
-Kako uporabljamo vaše podatke
-Zbrane podatke uporabljamo za:
+          Come utilizziamo le tue informazioni
+          Utilizziamo i dati raccolti per:
 
 <ul className="list-disc list-inside ml-4">
-<li>1. Zagotavljanje in vzdrževanje naših storitev;</li>
-<li>2. Izboljšati naše storitve in razviti nove funkcije;</li>
-<li>3. Preprečevanje goljufij in zlorab;</li>
-<li>4. Spremljanje in uveljavljanje skladnosti z našimi pogoji storitve;</li>
-<li>5. Komunicirajte z vami o posodobitvah, promocijah in drugih ustreznih informacijah.</li>
+<li>1. Fornire e mantenere i nostri servizi;</li>
+<li>2. Per migliorare i nostri servizi e sviluppare nuove funzionalità;</li>
+<li>3. Prevenire frodi e abusi;</li>
+<li>4. Monitoraggio e applicazione della conformità ai nostri Termini di servizio;</li>
+<li>5. Comunicare con te su aggiornamenti, promozioni e altre informazioni rilevanti.</li>
 </ul>
 
 
@@ -58,16 +58,16 @@ Zbrane podatke uporabljamo za:
 
         <section className="mb-14">
           
-          Da zagotovimo uporabo naših storitev v skladu z našimi pogoji storitve, lahko občasno pregledamo slike, ki jih ustvarijo uporabniki. To nam omogoča, da preverimo, ali uporabniki ne ustvarjajo neprimernih slik ali kako drugače kršijo naših pogojev storitve.
+        Per garantire che l'utilizzo dei nostri servizi sia conforme ai nostri Termini di servizio, potremmo rivedere periodicamente le immagini generate dagli utenti. Ciò ci consente di verificare che gli utenti non creino immagini inappropriate o violino in altro modo i nostri Termini di servizio.
 
-Varnost podatkov
-Sprejemamo razumne varnostne ukrepe za zaščito vaših osebnih podatkov pred nepooblaščenim dostopom, uporabo ali razkritjem. Vendar pa ne moremo zagotoviti popolne varnosti vaših podatkov in ne bomo odgovorni za morebitne kršitve varnosti.
+        Sicurezza dei dati
+        Adottiamo misure di sicurezza ragionevoli per proteggere i tuoi dati personali da accessi, utilizzi o divulgazioni non autorizzati. Tuttavia, non possiamo garantire la completa sicurezza dei tuoi dati e non saremo responsabili per eventuali violazioni della sicurezza.
 
-Spremembe tega pravilnika o zasebnosti
-Pridržujemo si pravico do posodobitve ali spremembe tega pravilnika o zasebnosti kadar koli. O morebitnih spremembah vas bomo obvestili z objavo posodobljene politike na naši spletni strani. Vaša nadaljnja uporaba Opremi Me po kakršnih koli spremembah tega pravilnika o zasebnosti pomeni, da se strinjate s posodobljenim pravilnikom.
+        Modifiche alla presente Informativa sulla privacy
+        Ci riserviamo il diritto di aggiornare o modificare la presente Informativa sulla privacy in qualsiasi momento. Vi informeremo di eventuali modifiche pubblicando la politica aggiornata sul nostro sito web. L'uso continuato di Spazio Unico dopo eventuali modifiche alla presente Informativa sulla privacy costituisce l'accettazione dell'informativa aggiornata.
 
-Kontaktni podatki
-Če imate kakršna koli vprašanja ali pomisleke glede tega pravilnika o zasebnosti ali vaše uporabe Opremi Me, nam pišite na info@opremime.si.
+        Informazioni sui contatti
+        In caso di domande o dubbi sulla presente Informativa sulla privacy o sull'utilizzo di Spazio Unico, contattateci all'indirizzo info@spaziounico.com.
         </section>
 
         
