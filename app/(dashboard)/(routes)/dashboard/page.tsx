@@ -1,5 +1,5 @@
 'use client'
-//import Lottie from "react-lottie";
+import Lottie from "lottie-react";
 import animationData from "@/public/assets/house1.json"
 import { useRouter } from 'next/navigation'
 import { ArrowRight } from 'lucide-react'
@@ -8,24 +8,9 @@ import { Card } from '@/components/ui/card'
 
 import { TOOLS } from '@/constants'
 import { cn } from '@/lib/utils'
-import lottie from 'lottie-web';
-import { useEffect, useRef } from 'react';
 
 const DashboardPage = () => {
   const router = useRouter()
-  const animationContainer = useRef<HTMLDivElement>(null);
-
-  useEffect(() => {
-    if (typeof window !== 'undefined' && animationContainer.current) {
-      lottie.loadAnimation({
-        container: animationContainer.current!, // Use non-null assertion
-        renderer: 'svg',
-        loop: true,
-        autoplay: true,
-        animationData: require('@/public/assets/house1.json'), // Replace with your Lottie animation file
-      });
-    }
-  }, []);
 
   return (
     <div>
@@ -56,12 +41,10 @@ const DashboardPage = () => {
             <ArrowRight className="w-5 h-5" />
           </Card>
         ))}
-       <div className="flex justify-center items-center">
-      {/* <Lottie style={{ width: '50%', height: '50%' }} animationData={animationData} /> */}
-      <div ref={animationContainer} style={{ width: 400, height: 400 }} />
+        <div className="flex justify-center items-center">
+      <Lottie style={{ width: '50%', height: '50%' }} animationData={animationData} />
     </div>
       </div>
-      
     </div>
   )
 }
