@@ -6,18 +6,18 @@ export default function PrivacyPolicy() {
   return (
     <>
       <Head>
-        <title>Pogoji storitve - Opremi Me</title>
+        <title>Termini di servizio - Spazio Unico</title>
         <meta name="description" content="Privacy Policy for Room AI" />
         <meta name="robots" content="noindex" />
       </Head>
       <LandingNavbar />
       <main className="container mx-auto px-4 py-8 bg-white rounded-lg shadow-lg">
-        <h1 className="text-3xl font-bold mb-6">Pogoji Storitve</h1>
+        <h1 className="text-3xl font-bold mb-6">Termini di servizio</h1>
 
         <section className="mb-8">
          
           <p>
-          Dobrodošli v storitvi Opremi Me, ki jo nudi Prepad d.o.o. . Room AI je platforma programske opreme kot storitve (SaaS), ki uporabnikom omogoča ustvarjanje slik notranje opreme z uporabo umetne inteligence. Z dostopom do naših storitev in njihovo uporabo se (»uporabnik«, »vi« ali »vaš«) strinjate, da vas zavezujejo ti pogoji storitve (»pogoji«), ki urejajo vaš dostop do in uporabo Opremi Me.
+          Benvenuti al servizio Spazio Unico, offerto da Prepad d.o.o. . Spazio Unico è una piattaforma software-as-a-service (SaaS) che consente agli utenti di creare immagini di interior design utilizzando l'intelligenza artificiale. Accedendo e utilizzando i nostri servizi, l'utente ("utente", "tu" o "tuo") accetta di essere vincolato dai presenti termini di servizio ("Termini"), che regolano l'accesso e l'utilizzo di Spazio Unico.
 
 
       
@@ -27,9 +27,9 @@ export default function PrivacyPolicy() {
         <section className="mb-8">
          
           <p>
-          <h2 className="text-xl font-bold mb-6">Obseg storitev</h2>
-          Opremi Me uporabnikom omogoča ustvarjanje slik notranje opreme z uporabo umetne inteligence. 
-          Naše storitve so namenjene osebni in komercialni uporabi, ob upoštevanju omejitev, navedenih v teh pogojih in posebnem naročniškem načrtu, na katerega ste naročeni.
+          <h2 className="text-xl font-bold mb-6">Ambito dei servizi</h2>
+          Spazio Unico consente agli utenti di creare immagini di interior design utilizzando l'intelligenza artificiale. 
+          I nostri Servizi sono destinati all'uso personale e commerciale, soggetti alle restrizioni stabilite nei presenti Termini e allo specifico piano di abbonamento a cui si sottoscrive.
 
 
 
@@ -43,82 +43,82 @@ export default function PrivacyPolicy() {
 
         <section className="mb-8">
         
-        <h2 className="text-xl font-bold mb-6">Pooblaščeni dostop in uporaba</h2>
-        Dovoljeno vam je, da dostopate in uporabljate Opremi Me izključno prek spletnega mesta in po našem načrtu. Do naših storitev ne smete dostopati ali jih uporabljati na kakršen koli avtomatiziran način, vključno, 
-        vendar ne omejeno na strganje, uporabo razširitev brskalnika ali uporabo katerih koli drugih metod, ki bi lahko pretirano obremenile naše računalniške ali gostiteljske vire. 
-        Prav tako vam je prepovedano uporabljati ustvarjene slike ali rezultate za namene usposabljanja modelov umetne inteligence ali ustvarjanja konkurenčne ali podobne storitve.        
+        <h2 className="text-xl font-bold mb-6">Accesso e utilizzo autorizzati</h2>
+        Ti è consentito accedere e utilizzare Opre Me esclusivamente tramite il Sito Web e in conformità con il nostro piano. Non è possibile accedere o utilizzare i nostri servizi in alcun modo automatizzato, incluso, 
+        ma non limitato a scraping, utilizzo di estensioni del browser o utilizzo di qualsiasi altro metodo che possa comportare un carico eccessivo sul nostro computer o sulle risorse di hosting. 
+        È inoltre vietato utilizzare le immagini o i risultati generati per addestrare modelli di intelligenza artificiale o per creare un servizio competitivo o simile.        
         
         </section>
         <section className="mb-8">
-        <h2 className="text-xl font-bold mb-6">Avtorske pravice in intelektualna lastnina</h2>
+        <h2 className="text-xl font-bold mb-6">Diritto d'autore e proprietà intellettuale</h2>
         <p>
-        Pravno okolje v zvezi z avtorskimi pravicami in pravicami intelektualne lastnine slik, ustvarjenih z umetno inteligenco, 
-        se še vedno razvija in je v nekaterih jurisdikcijah morda nejasno. V obsegu, ki ga dovoljuje veljavna zakonodaja, vam podeljujemo pravice do uporabe slik, 
-        ustvarjenih prek Opremi Me,
-        v skladu z vašim naročniškim načrtom. Vendar pa ne jamčimo za edinstvenost ustvarjenih slik.
+        L'ambiente giuridico riguardante il diritto d'autore e i diritti di proprietà intellettuale delle immagini create con l'intelligenza artificiale, 
+        è ancora in evoluzione e potrebbe risultare poco chiaro in alcune giurisdizioni. Nella misura consentita dalla legge applicabile, ti concediamo i diritti di utilizzare le immagini, 
+        creato tramite Spazio Unico,
+        in base al tuo piano di abbonamento. Tuttavia, non garantiamo l'unicità delle immagini create.
         </p>
         </section>
 
         <section className="mb-8">
-        <h2 className="text-xl font-bold mb-6">Vsebina, ki jo posreduje uporabnik</h2>
+        <h2 className="text-xl font-bold mb-6">Contenuto inviato dall'utente</h2>
         <p>
-        Z nalaganjem slik v Opremi Me obdržite vse pravice in lastništvo vsebine, ki jo posredujete. 
-        Vendar pa nam podelite neizključno, brezplačno, svetovno licenco za uporabo, reprodukcijo in spreminjanje vaših naloženih slik z namenom zagotavljanja naših storitev, 
-        zagotavljanja njihove kakovosti in izboljšanja naše ponudbe. To lahko vključuje uporabo vaših slik na združen in anonimiziran način za izboljšanje 
-        delovanja naših modelov umetne inteligence brez razkritja vaših osebnih podatkov. Z nalaganjem slik izjavljate in jamčite, da imate potrebne 
-        pravice in dovoljenja za uporabo in skupno rabo teh slik na način, opisan v teh pogojih.
+        Caricando le immagini su Oprema Me, conservi tutti i diritti e la proprietà dei contenuti inviati. 
+        Tuttavia, ci concedi una licenza non esclusiva, esente da royalty e mondiale per utilizzare, riprodurre e modificare le immagini caricate allo scopo di fornire i nostri servizi, 
+        garantendone la qualità e migliorando la nostra offerta. Ciò potrebbe includere l'utilizzo delle tue immagini in modo aggregato e anonimo per migliorare 
+        il funzionamento dei nostri modelli di intelligenza artificiale senza divulgare i tuoi dati personali. Caricando le immagini, dichiari e garantisci di disporre dei requisiti necessari 
+        diritti e permessi per utilizzare e condividere queste immagini secondo le modalità descritte nei presenti termini.
         </p>
         </section>
 
         <section className="mb-8">
-        <h2 className="text-xl font-bold mb-6">Shranjevanje in brisanje podatkov</h2>
+        <h2 className="text-xl font-bold mb-6">Archiviazione ed eliminazione dei dati</h2>
         <p>
-        Čeprav si prizadevamo ohraniti varnost in celovitost podatkov in slik, ustvarjenih z našimi storitvami, ne moremo biti odgovorni za kakršno koli izgubo podatkov ali slik, 
-        do katere lahko pride. V primeru, da uporabnik prekliče naročnino, si pridržujemo pravico do izbrisa vseh podatkov ali slik, povezanih z uporabnikovim računom.
-        Priporočamo, da uporabniki redno varnostno kopirajo svoje ustvarjene slike in podatke, da zagotovijo njihovo ohranitev.
+        Sebbene ci impegniamo a mantenere la sicurezza e l'integrità dei dati e delle immagini creati con i nostri servizi, non possiamo essere ritenuti responsabili per eventuali perdite di dati o immagini, 
+        che può verificarsi. Nel caso in cui un utente annulli il proprio abbonamento, ci riserviamo il diritto di eliminare tutti i dati o le immagini associati all'account dell'utente.
+        Consigliamo agli utenti di eseguire regolarmente il backup delle immagini e dei dati creati per garantirne la conservazione.
         </p>
         </section>
 
         <section className="mb-8">
-        <h2 className="text-xl font-bold mb-6">Odškodnina</h2>
+        <h2 className="text-xl font-bold mb-6">Compensazione</h2>
         <p>
-        Strinjate se, da boste Prepad d.o.o., njegove podružnice in njihove ustrezne uradnike, direktorje, zaposlene in zastopnike odškodninili, 
-        branili in zaščitili pred kakršnimi koli zahtevki, obveznostmi, škodo, izgubami ali stroški, vključno z razumnimi odvetniškimi honorarji in stroški, 
-        ki izhajajo iz ali so kakor koli povezani z vašim dostopom do ali uporabo Opremi Me, 
-        vključno z, vendar ne omejeno na, zahtevki v zvezi s kršitvijo avtorskih pravic ali pravic intelektualne lastnine.
+        L'utente accetta di risarcire Prepad d.o.o., le sue affiliate e i rispettivi funzionari, direttori, dipendenti e agenti., 
+        difendere e tenere indenne da e contro qualsiasi reclamo, responsabilità, danno, perdita o spesa, comprese le ragionevoli spese legali e i costi, 
+        derivanti da o in qualsiasi modo correlati al tuo accesso o utilizzo di Spazio Unico, 
+        compresi, ma non limitati a, reclami di violazione del copyright o della proprietà intellettuale.
         </p>
         </section>
 
         <section className="mb-8">
-        <h2 className="text-xl font-bold mb-6">Povračila</h2>
+        <h2 className="text-xl font-bold mb-6">Rimborsi</h2>
         <p>
-        Naša privzeta politika je, da ne vračamo kupnine zaradi stroškov, povezanih z ustvarjanjem slik z uporabo umetne inteligence. 
-        Vendar pa lahko zahteve za vračilo obravnavamo za vsak primer posebej po lastni presoji.
-        Odločitev o morebitnem delnem ali celotnem povračilu bo sprejelo podjetje Prepad d.o.o.        </p>
+        La nostra politica predefinita è quella di non emettere rimborsi a causa dei costi associati alla creazione di immagini tramite intelligenza artificiale. 
+        Tuttavia, potremmo valutare le richieste di rimborso caso per caso, a nostra esclusiva discrezione.
+        La decisione su un eventuale rimborso parziale o totale sarà presa dalla società Prepad d.o.o..        </p>
         </section>
 
         <section className="mb-8">
-        <h2 className="text-xl font-bold mb-6">Sprejemljiva uporaba</h2>
+        <h2 className="text-xl font-bold mb-6">Uso accettabile</h2>
         <p>
-        Strinjate se, da uporabljate Opremi Me samo za ustvarjanje slik, ki so primerne in zakonite. Naših storitev ne smete uporabljati za ustvarjanje, promocijo ali širjenje slik, ki:
+        Accetti di utilizzare Spazio Unico solo per creare immagini appropriate e legali. Non puoi utilizzare i nostri Servizi per creare, promuovere o distribuire immagini che:
         <ul className="list-disc list-inside ml-4">
-<li>1. Vsebujejo spolno eksplicitno ali pornografsko vsebino;</li>
+<li>1. Contenere contenuti sessualmente espliciti o pornografici;</li>
 
-<li>2. Spodbujajo nasilje ali sovraštvo do posameznikov ali skupin na podlagi rase, etnične pripadnosti, vere, spola, invalidnosti ali katere koli druge zaščitene značilnosti;</li>
+<li>2. Promuovere la violenza o l'odio contro individui o gruppi in base a razza, etnia, religione, genere, disabilità o qualsiasi altra caratteristica protetta;</li>
 
-<li>3. Kršiti morebitne veljavne zakone ali predpise, vključno z avtorskimi pravicami, blagovnimi znamkami ali pravicami intelektualne lastnine, vendar ne omejeno nanje;</li>
+<li>3. Violare qualsiasi legge o regolamento applicabile, inclusi, a titolo esemplificativo ma non esaustivo, i diritti d'autore, i marchi commerciali o i diritti di proprietà intellettuale;</li>
 
-<li>4. Prepad d.o.o. jih po lastni presoji sicer šteje za neprimerne.</li>
+<li>4. Società Prepad d.o.o. altrimenti ritenuto inappropriato a sua discrezione.</li>
 </ul>
-Pridržujemo si pravico, da odstranimo ali zavrnemo dostop do katere koli slike, ki krši te pogoje, in lahko prekinemo vaš dostop do Opremi Me, če se ugotovi, da kršite te pogoje.
+Ci riserviamo il diritto di rimuovere o negare l'accesso a qualsiasi immagine che violi questi termini e potremmo interrompere l'accesso a Outfit Me qualora venisse accertata la violazione di questi termini.
         </p>
         </section>
 
         <section className="mb-8">
-        <h2 className="text-xl font-bold mb-6">Veljavno pravo in sodna pristojnost</h2>
+        <h2 className="text-xl font-bold mb-6">Legge applicabile e giurisdizione</h2>
         <p>
-        Te pogoje in vašo uporabo Opremi Me ureja zakonodaja Sloveniije. Strinjate se, da ste za reševanje vseh sporov, 
-        ki izhajajo iz teh pogojev ali so povezani z njimi, podvrženi izključni pristojnosti sodišč v Sloveniji.
+        I presenti termini e l'utilizzo di Oprema Me sono regolati dalle leggi della Slovenia. Accetti di risolvere tutte le controversie tramite 
+        derivanti da o in connessione con questi termini e condizioni saranno soggetti alla giurisdizione esclusiva dei tribunali della Italia.
         </p>
         </section>
         
