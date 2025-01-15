@@ -1,5 +1,5 @@
 'use client'
-import Lottie from "lottie-react";
+import Lottie from "react-lottie";
 import animationData from "@/public/assets/house1.json"
 import { useRouter } from 'next/navigation'
 import { ArrowRight } from 'lucide-react'
