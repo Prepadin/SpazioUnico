@@ -24,8 +24,8 @@ export default function PrivacyPolicy() {
           Dati che raccogliamo
           Raccogliamo informazioni da te quando utilizzi i nostri servizi, inclusi, a titolo esemplificativo ma non esaustivo:
 <ul className="list-disc list-inside ml-4">
-<li>1. Informazioni sull'account: quando crei un account con Spazio Unico, raccogliamo il tuo nome, indirizzo email e qualsiasi altra informazione fornita durante la procedura di registrazione.</li>
-<li>2. Dati di utilizzo: raccogliamo dati relativi al tuo utilizzo dei nostri servizi, come le immagini che crei, la data e l'ora del tuo utilizzo e altre azioni che intraprendi all'interno della nostra piattaforma.</li>
+<li>1. Informazioni sull&apos;account: quando crei un account con Spazio Unico, raccogliamo il tuo nome, indirizzo email e qualsiasi altra informazione fornita durante la procedura di registrazione.</li>
+<li>2. Dati di utilizzo: raccogliamo dati relativi al tuo utilizzo dei nostri servizi, come le immagini che crei, la data e l&apos;ora del tuo utilizzo e altre azioni che intraprendi all&apos;interno della nostra piattaforma.</li>
 
 <li>3. Dati analitici: utilizziamo strumenti analitici per raccogliere informazioni su come gli utenti interagiscono con i nostri servizi, inclusi, a titolo esemplificativo ma non esaustivo, le pagine visitate, la durata della visita e altri dati comportamentali.</li>
 </ul>
@@ -58,16 +58,16 @@ export default function PrivacyPolicy() {
 
         <section className="mb-14">
           
-        Per garantire che l'utilizzo dei nostri servizi sia conforme ai nostri Termini di servizio, potremmo rivedere periodicamente le immagini generate dagli utenti. Ciò ci consente di verificare che gli utenti non creino immagini inappropriate o violino in altro modo i nostri Termini di servizio.
+        Per garantire che l&apos;utilizzo dei nostri servizi sia conforme ai nostri Termini di servizio, potremmo rivedere periodicamente le immagini generate dagli utenti. Ciò ci consente di verificare che gli utenti non creino immagini inappropriate o violino in altro modo i nostri Termini di servizio.
 
         Sicurezza dei dati
         Adottiamo misure di sicurezza ragionevoli per proteggere i tuoi dati personali da accessi, utilizzi o divulgazioni non autorizzati. Tuttavia, non possiamo garantire la completa sicurezza dei tuoi dati e non saremo responsabili per eventuali violazioni della sicurezza.
 
         Modifiche alla presente Informativa sulla privacy
-        Ci riserviamo il diritto di aggiornare o modificare la presente Informativa sulla privacy in qualsiasi momento. Vi informeremo di eventuali modifiche pubblicando la politica aggiornata sul nostro sito web. L'uso continuato di Spazio Unico dopo eventuali modifiche alla presente Informativa sulla privacy costituisce l'accettazione dell'informativa aggiornata.
+        Ci riserviamo il diritto di aggiornare o modificare la presente Informativa sulla privacy in qualsiasi momento. Vi informeremo di eventuali modifiche pubblicando la politica aggiornata sul nostro sito web. L&apos;uso continuato di Spazio Unico dopo eventuali modifiche alla presente Informativa sulla privacy costituisce l&apos;accettazione dell&apos;informativa aggiornata.
 
         Informazioni sui contatti
-        In caso di domande o dubbi sulla presente Informativa sulla privacy o sull'utilizzo di Spazio Unico, contattateci all'indirizzo info@spaziounico.com.
+        In caso di domande o dubbi sulla presente Informativa sulla privacy o sull&apos;utilizzo di Spazio Unico, contattateci all&apos;indirizzo info@spaziounico.com.
         </section>
 
         
