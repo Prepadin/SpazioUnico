@@ -60,12 +60,12 @@ export const LandingFooters = () => {
             <h3 className="font-medium text-white">Contatto</h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <Link href="https://instagram.com/opremime.si" className="text-muted-foreground text-zinc-400 hover:text-foreground">
+                <Link href="https://instagram.com/spaziounico.com" className="text-muted-foreground text-zinc-400 hover:text-foreground">
                   Instagram
                 </Link>
               </li>
               <li>
-                <Link href="mailto:info@opremime.si" className="text-muted-foreground text-zinc-400 hover:text-foreground">
+                <Link href="mailto:info@spaziounico.com" className="text-muted-foreground text-zinc-400 hover:text-foreground">
                 Supporto (email)
                 </Link>
               </li>
