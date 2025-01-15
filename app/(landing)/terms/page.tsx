@@ -17,7 +17,7 @@ export default function PrivacyPolicy() {
         <section className="mb-8">
          
           <p>
-          Benvenuti al servizio Spazio Unico, offerto da Prepad d.o.o. . Spazio Unico è una piattaforma software-as-a-service (SaaS) che consente agli utenti di creare immagini di interior design utilizzando l'intelligenza artificiale. Accedendo e utilizzando i nostri servizi, l'utente ("utente", "tu" o "tuo") accetta di essere vincolato dai presenti termini di servizio ("Termini"), che regolano l'accesso e l'utilizzo di Spazio Unico.
+          Benvenuti al servizio Spazio Unico, offerto da Prepad d.o.o. . Spazio Unico è una piattaforma software-as-a-service (SaaS) che consente agli utenti di creare immagini di interior design utilizzando l&apos;intelligenza artificiale. Accedendo e utilizzando i nostri servizi, l&apos;utente ("utente", "tu" o "tuo") accetta di essere vincolato dai presenti termini di servizio ("Termini"), che regolano l&apos;accesso e l&apos;utilizzo di Spazio Unico.
 
 
       
@@ -28,8 +28,8 @@ export default function PrivacyPolicy() {
          
           <p>
           <h2 className="text-xl font-bold mb-6">Ambito dei servizi</h2>
-          Spazio Unico consente agli utenti di creare immagini di interior design utilizzando l'intelligenza artificiale. 
-          I nostri Servizi sono destinati all'uso personale e commerciale, soggetti alle restrizioni stabilite nei presenti Termini e allo specifico piano di abbonamento a cui si sottoscrive.
+          Spazio Unico consente agli utenti di creare immagini di interior design utilizzando l&apos;intelligenza artificiale. 
+          I nostri Servizi sono destinati all&apos;uso personale e commerciale, soggetti alle restrizioni stabilite nei presenti Termini e allo specifico piano di abbonamento a cui si sottoscrive.
 
 
 
@@ -50,21 +50,21 @@ export default function PrivacyPolicy() {
         
         </section>
         <section className="mb-8">
-        <h2 className="text-xl font-bold mb-6">Diritto d'autore e proprietà intellettuale</h2>
+        <h2 className="text-xl font-bold mb-6">Diritto d&apos;autore e proprietà intellettuale</h2>
         <p>
-        L'ambiente giuridico riguardante il diritto d'autore e i diritti di proprietà intellettuale delle immagini create con l'intelligenza artificiale, 
+        L&apos;ambiente giuridico riguardante il diritto d&apos;autore e i diritti di proprietà intellettuale delle immagini create con l&apos;intelligenza artificiale, 
         è ancora in evoluzione e potrebbe risultare poco chiaro in alcune giurisdizioni. Nella misura consentita dalla legge applicabile, ti concediamo i diritti di utilizzare le immagini, 
         creato tramite Spazio Unico,
-        in base al tuo piano di abbonamento. Tuttavia, non garantiamo l'unicità delle immagini create.
+        in base al tuo piano di abbonamento. Tuttavia, non garantiamo l&apos;unicità delle immagini create.
         </p>
         </section>
 
         <section className="mb-8">
-        <h2 className="text-xl font-bold mb-6">Contenuto inviato dall'utente</h2>
+        <h2 className="text-xl font-bold mb-6">Contenuto inviato dall&apos;utente</h2>
         <p>
         Caricando le immagini su Oprema Me, conservi tutti i diritti e la proprietà dei contenuti inviati. 
         Tuttavia, ci concedi una licenza non esclusiva, esente da royalty e mondiale per utilizzare, riprodurre e modificare le immagini caricate allo scopo di fornire i nostri servizi, 
-        garantendone la qualità e migliorando la nostra offerta. Ciò potrebbe includere l'utilizzo delle tue immagini in modo aggregato e anonimo per migliorare 
+        garantendone la qualità e migliorando la nostra offerta. Ciò potrebbe includere l&apos;utilizzo delle tue immagini in modo aggregato e anonimo per migliorare 
         il funzionamento dei nostri modelli di intelligenza artificiale senza divulgare i tuoi dati personali. Caricando le immagini, dichiari e garantisci di disporre dei requisiti necessari 
         diritti e permessi per utilizzare e condividere queste immagini secondo le modalità descritte nei presenti termini.
         </p>
@@ -73,8 +73,8 @@ export default function PrivacyPolicy() {
         <section className="mb-8">
         <h2 className="text-xl font-bold mb-6">Archiviazione ed eliminazione dei dati</h2>
         <p>
-        Sebbene ci impegniamo a mantenere la sicurezza e l'integrità dei dati e delle immagini creati con i nostri servizi, non possiamo essere ritenuti responsabili per eventuali perdite di dati o immagini, 
-        che può verificarsi. Nel caso in cui un utente annulli il proprio abbonamento, ci riserviamo il diritto di eliminare tutti i dati o le immagini associati all'account dell'utente.
+        Sebbene ci impegniamo a mantenere la sicurezza e l&apos;integrità dei dati e delle immagini creati con i nostri servizi, non possiamo essere ritenuti responsabili per eventuali perdite di dati o immagini, 
+        che può verificarsi. Nel caso in cui un utente annulli il proprio abbonamento, ci riserviamo il diritto di eliminare tutti i dati o le immagini associati all&apos;account dell&apos;utente.
         Consigliamo agli utenti di eseguire regolarmente il backup delle immagini e dei dati creati per garantirne la conservazione.
         </p>
         </section>
@@ -82,7 +82,7 @@ export default function PrivacyPolicy() {
         <section className="mb-8">
         <h2 className="text-xl font-bold mb-6">Compensazione</h2>
         <p>
-        L'utente accetta di risarcire Prepad d.o.o., le sue affiliate e i rispettivi funzionari, direttori, dipendenti e agenti., 
+        L&apos;utente accetta di risarcire Prepad d.o.o., le sue affiliate e i rispettivi funzionari, direttori, dipendenti e agenti., 
         difendere e tenere indenne da e contro qualsiasi reclamo, responsabilità, danno, perdita o spesa, comprese le ragionevoli spese legali e i costi, 
         derivanti da o in qualsiasi modo correlati al tuo accesso o utilizzo di Spazio Unico, 
         compresi, ma non limitati a, reclami di violazione del copyright o della proprietà intellettuale.
@@ -104,21 +104,21 @@ export default function PrivacyPolicy() {
         <ul className="list-disc list-inside ml-4">
 <li>1. Contenere contenuti sessualmente espliciti o pornografici;</li>
 
-<li>2. Promuovere la violenza o l'odio contro individui o gruppi in base a razza, etnia, religione, genere, disabilità o qualsiasi altra caratteristica protetta;</li>
+<li>2. Promuovere la violenza o l&apos;odio contro individui o gruppi in base a razza, etnia, religione, genere, disabilità o qualsiasi altra caratteristica protetta;</li>
 
-<li>3. Violare qualsiasi legge o regolamento applicabile, inclusi, a titolo esemplificativo ma non esaustivo, i diritti d'autore, i marchi commerciali o i diritti di proprietà intellettuale;</li>
+<li>3. Violare qualsiasi legge o regolamento applicabile, inclusi, a titolo esemplificativo ma non esaustivo, i diritti d&apos;autore, i marchi commerciali o i diritti di proprietà intellettuale;</li>
 
 <li>4. Società Prepad d.o.o. altrimenti ritenuto inappropriato a sua discrezione.</li>
 </ul>
-Ci riserviamo il diritto di rimuovere o negare l'accesso a qualsiasi immagine che violi questi termini e potremmo interrompere l'accesso a Outfit Me qualora venisse accertata la violazione di questi termini.
+Ci riserviamo il diritto di rimuovere o negare l&apos;accesso a qualsiasi immagine che violi questi termini e potremmo interrompere l&apos;accesso a Outfit Me qualora venisse accertata la violazione di questi termini.
         </p>
         </section>
 
         <section className="mb-8">
         <h2 className="text-xl font-bold mb-6">Legge applicabile e giurisdizione</h2>
         <p>
-        I presenti termini e l'utilizzo di Oprema Me sono regolati dalle leggi della Slovenia. Accetti di risolvere tutte le controversie tramite 
-        derivanti da o in connessione con questi termini e condizioni saranno soggetti alla giurisdizione esclusiva dei tribunali della Italia.
+        I presenti termini e l&apos;utilizzo di Oprema Me sono regolati dalle leggi della Slovenia. Accetti di risolvere tutte le controversie tramite 
+        derivanti da o in connessione con questi termini e condizioni saranno soggetti alla giurisdizione esclusiva dei tribunali Italiani.
         </p>
         </section>
         
