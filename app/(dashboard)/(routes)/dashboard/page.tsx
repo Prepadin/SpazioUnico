@@ -13,12 +13,12 @@ import { useEffect, useRef } from 'react';
 
 const DashboardPage = () => {
   const router = useRouter()
-  const animationContainer = useRef(null);
+  const animationContainer = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    if (typeof window !== 'undefined') {
+    if (typeof window !== 'undefined' && animationContainer.current) {
       lottie.loadAnimation({
-        container: animationContainer.current,
+        container: animationContainer.current!, // Use non-null assertion
         renderer: 'svg',
         loop: true,
         autoplay: true,
