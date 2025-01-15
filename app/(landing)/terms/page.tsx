@@ -17,7 +17,7 @@ export default function PrivacyPolicy() {
         <section className="mb-8">
          
           <p>
-          Benvenuti al servizio Spazio Unico, offerto da Prepad d.o.o. . Spazio Unico è una piattaforma software-as-a-service (SaaS) che consente agli utenti di creare immagini di interior design utilizzando l&apos;intelligenza artificiale. Accedendo e utilizzando i nostri servizi, l&apos;utente ("utente", "tu" o "tuo") accetta di essere vincolato dai presenti termini di servizio ("Termini"), che regolano l&apos;accesso e l&apos;utilizzo di Spazio Unico.
+          Benvenuti al servizio Spazio Unico, offerto da Prepad d.o.o. . Spazio Unico è una piattaforma software-as-a-service (SaaS) che consente agli utenti di creare immagini di interior design utilizzando l&apos;intelligenza artificiale. Accedendo e utilizzando i nostri servizi, l&apos;utente accetta di essere vincolato dai presenti termini di servizio (Termini), che regolano l&apos;accesso e l&apos;utilizzo di Spazio Unico.
 
 
       
