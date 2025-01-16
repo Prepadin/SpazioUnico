@@ -68,6 +68,13 @@ const DashboardPage = () => {
   const router = useRouter();
 
   return (
+    <>
+    {/* <script>
+  gtag('event', 'ads_conversion_Page_view_Page_load_htt_2', {
+    // <event_parameters>
+  });
+</script> */}
+
     <div>
       <div className="mb-8 space-y-4">
         <h2 className="text-2xl md:text-4xl font-bold text-center">
@@ -99,6 +106,7 @@ const DashboardPage = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 
