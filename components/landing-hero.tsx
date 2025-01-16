@@ -15,7 +15,7 @@ export const LandingHero = () => {
 
   return (
     <>
-     {/* <head>
+     <head>
       <Script
         strategy='lazyOnload'
         src={`https://www.googletagmanager.com/gtag/js?id=G-7RQ6ZCJCS1`}
@@ -31,7 +31,7 @@ export const LandingHero = () => {
               });
           `}
       </Script>
-      </head> */}
+      </head>
     <div className="text-white font-bold py-32 text-center space-y-2">
       <div className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl space-y-4 font-extrabold">
         <h1>Arreda la casa dei tuoi sogni</h1>
