@@ -1,5 +1,11 @@
+'use client'
+
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Mail, Phone, MapPin } from "lucide-react"
+import dynamic from 'next/dynamic';
+
+const Lottie = dynamic(() => import('lottie-react'), { ssr: false });
+import animationData from '@/public/assets/mail.json';
 
 export default function ContactPage() {
   return (
@@ -34,6 +40,9 @@ export default function ContactPage() {
           </div> */}
         </CardContent>
       </Card>
+      <div className="flex justify-center items-center">
+          <Lottie style={{ width: '50%', height: '50%' }} animationData={animationData} />
+        </div>
     </div>
   )
 }
