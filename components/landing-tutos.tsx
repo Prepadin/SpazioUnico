@@ -8,10 +8,10 @@ export const LandingTutos = () => {
       <div className="grid lg:grid-cols-2 gap-12 items-center">
         <div className="text-center lg:text-left">
           <h1 className="text-4xl font-bold tracking-tight sm:text-5xl mb-6 text-white">
-          Scatta una foto e ridisegna i tuoi interni in pochi secondi utilizzando l'intelligenza artificiale
+          Scatta una foto e ridisegna i tuoi interni in pochi secondi utilizzando l&apos;intelligenza artificiale
           </h1>
           <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto lg:mx-0">
-          Stai cercando di trasformare la tua casa all'interno? La nostra funzionalità AI per interni Beautiful Spazio Unico è qui
+          Stai cercando di trasformare la tua casa all&apos;interno? La nostra funzionalità AI per interni Beautiful Spazio Unico è qui
           per aiutare. Ti consente di rinnovare il tuo spazio in vari stili, assicurandoti che appaia spettacolare. Puoi riprogettare
           interni con facilità.
           </p>
