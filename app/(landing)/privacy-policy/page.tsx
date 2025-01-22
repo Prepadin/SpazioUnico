@@ -17,7 +17,6 @@ export default function PrivacyPolicy() {
         <section className="mb-12">
        
           <p>
-          Il servizio Spazio Unico, fornito da Prepad d.o.o. valorizziamo e rispettiamo la privacy dei nostri utenti.
           Questa informativa sulla privacy spiega come raccogliamo, utilizziamo e proteggiamo le tue informazioni personali,
           quando accedi e utilizzi i nostri servizi.
 

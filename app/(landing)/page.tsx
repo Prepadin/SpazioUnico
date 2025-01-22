@@ -5,15 +5,19 @@ import { LandingNavbar } from '@/components/landing-navbar'
 import { LandingAfter } from '@/components/landing-after'
 import { LandingPricing } from '@/components/landing-pricing'
 import { LandingFooters } from '@/components/landing-footers'
+import { LandingTutos } from '@/components/landing-tutos'
+import { LandingCard } from '@/components/landing-card'
 
 const LandingPage = () => (
   <div className="h-full">
     <LandingNavbar />
     <LandingHero />
     <LandingAfter />
+    <LandingCard />
     <LandingPricing />
     <LandingContent />
     {/* <LandingFooter /> */}
+    <LandingTutos />
     <LandingFooters />
   </div>
 )

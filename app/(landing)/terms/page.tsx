@@ -17,7 +17,7 @@ export default function PrivacyPolicy() {
         <section className="mb-8">
          
           <p>
-          Benvenuti al servizio Spazio Unico, offerto da Prepad d.o.o. . Spazio Unico è una piattaforma software-as-a-service (SaaS) che consente agli utenti di creare immagini di interior design utilizzando l&apos;intelligenza artificiale. Accedendo e utilizzando i nostri servizi, l&apos;utente accetta di essere vincolato dai presenti termini di servizio (Termini), che regolano l&apos;accesso e l&apos;utilizzo di Spazio Unico.
+          Benvenuti al servizio Spazio Unico. Spazio Unico è una piattaforma software-as-a-service (SaaS) che consente agli utenti di creare immagini di interior design utilizzando l&apos;intelligenza artificiale. Accedendo e utilizzando i nostri servizi, l&apos;utente accetta di essere vincolato dai presenti termini di servizio (Termini), che regolano l&apos;accesso e l&apos;utilizzo di Spazio Unico.
 
 
       
@@ -82,7 +82,7 @@ export default function PrivacyPolicy() {
         <section className="mb-8">
         <h2 className="text-xl font-bold mb-6">Compensazione</h2>
         <p>
-        L&apos;utente accetta di risarcire Prepad d.o.o., le sue affiliate e i rispettivi funzionari, direttori, dipendenti e agenti., 
+        L&apos;utente accetta di risarcire, le sue affiliate e i rispettivi funzionari, direttori, dipendenti e agenti., 
         difendere e tenere indenne da e contro qualsiasi reclamo, responsabilità, danno, perdita o spesa, comprese le ragionevoli spese legali e i costi, 
         derivanti da o in qualsiasi modo correlati al tuo accesso o utilizzo di Spazio Unico, 
         compresi, ma non limitati a, reclami di violazione del copyright o della proprietà intellettuale.
@@ -94,7 +94,7 @@ export default function PrivacyPolicy() {
         <p>
         La nostra politica predefinita è quella di non emettere rimborsi a causa dei costi associati alla creazione di immagini tramite intelligenza artificiale. 
         Tuttavia, potremmo valutare le richieste di rimborso caso per caso, a nostra esclusiva discrezione.
-        La decisione su un eventuale rimborso parziale o totale sarà presa dalla società Prepad d.o.o..        </p>
+        La decisione su un eventuale rimborso parziale o totale.      </p>
         </section>
 
         <section className="mb-8">
@@ -108,7 +108,7 @@ export default function PrivacyPolicy() {
 
 <li>3. Violare qualsiasi legge o regolamento applicabile, inclusi, a titolo esemplificativo ma non esaustivo, i diritti d&apos;autore, i marchi commerciali o i diritti di proprietà intellettuale;</li>
 
-<li>4. Società Prepad d.o.o. altrimenti ritenuto inappropriato a sua discrezione.</li>
+
 </ul>
 Ci riserviamo il diritto di rimuovere o negare l&apos;accesso a qualsiasi immagine che violi questi termini e potremmo interrompere l&apos;accesso a Outfit Me qualora venisse accertata la violazione di questi termini.
         </p>
