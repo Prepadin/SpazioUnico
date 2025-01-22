@@ -29,7 +29,7 @@ export const LandingCard = () => (
         {/* How to Use Section */}
         <section className="space-y-12">
           <div className="text-center space-y-4">
-            <h2 className="text-violet-600 font-semibold">PROGETTARE LA CASA CON L'AI RESO FACILE</h2>
+            <h2 className="text-violet-600 font-semibold">PROGETTARE LA CASA CON L&apos;AI RESO FACILE</h2>
             <h3 className="text-3xl md:text-4xl font-bold text-white">
             Come utilizzare Spazio Unico in <span className="bg-gradient-to-r from-violet-500 to-violet-400 bg-clip-text text-transparent">3 semplici passaggi</span>
             </h3>
