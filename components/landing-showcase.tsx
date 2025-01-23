@@ -20,7 +20,7 @@ export const LandingShowcase = () => {
         <Card className="overflow-hidden">
           <CardContent className="p-0">
             <Image
-              src="/room4lux.png"
+              src="/spalnicalux.png"
               alt="Empty room with white walls and wooden flooring"
               width={600}
               height={400}
@@ -35,7 +35,7 @@ export const LandingShowcase = () => {
         <Card className="overflow-hidden">
           <CardContent className="p-0">
             <Image
-              src="/room4lux.png"
+              src="/living2-2.png"
               alt="Modern room with purple sofa and industrial shelving"
               width={600}
               height={400}
