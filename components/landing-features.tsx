@@ -15,7 +15,7 @@ export const LandingFeatures = () => {
     {
       icon: <Image className="w-12 h-12 text-blue-400" />,
       title: "High-Quality Images",
-      description: "Scarica le immagini generate dall&quot;intelligenza artificiale con una qualità cristallina.",
+      description: "Scarica le immagini generate dall'intelligenza artificiale con una qualità cristallina.",
     },
     {
       icon: <Settings className="w-12 h-12 text-purple-500" />,
@@ -25,7 +25,7 @@ export const LandingFeatures = () => {
     {
       icon: <Clock className="w-12 h-12 text-blue-400" />,
       title: "Fast Image Rendering",
-      description: "Ottieni la tua prima immagine generata dall&quot;intelligenza artificiale in meno di 60 secondi o meno.",
+      description: "Ottieni la tua prima immagine generata dall'intelligenza artificiale in meno di 60 secondi o meno.",
     },
   ]
 
@@ -36,7 +36,7 @@ export const LandingFeatures = () => {
       <div className="text-center mb-16">
         {/* <h2 className="text-purple-600 font-medium mb-4">CARATTERISTICHE PRIME SUL MERCATO</h2> */}
         <h1 className="text-4xl md:text-5xl font-bold">
-          <span className="text-purple-600">Il nostro programma "Tutto ciò di cui hai bisogno" </span>
+          <span className="text-purple-600">Il nostro programma &quotTutto ciò di cui hai bisogno&quot </span>
           <span className="text-gray-900">AI Spazio Unico </span>
           {/* <span className="text-purple-600">Attrezzo</span> */}
         </h1>
