@@ -5,7 +5,7 @@ import Image from "next/image";
 export const LandingTutos = () => {
   return (
     <section className="max-w-7xl mx-auto px-4 py-16 sm:px-6 lg:px-8">
-      <div className="grid lg:grid-cols-2 gap-12 items-center">
+      <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
         <div className="text-center lg:text-left">
           <h1 className="text-4xl font-bold tracking-tight sm:text-5xl mb-6 text-white">
           Scatta una foto e ridisegna i tuoi interni in pochi secondi utilizzando l&apos;intelligenza artificiale
@@ -15,9 +15,9 @@ export const LandingTutos = () => {
           per aiutare. Ti consente di rinnovare il tuo spazio in vari stili, assicurandoti che appaia spettacolare. Puoi riprogettare
           interni con facilità.
           </p>
-          <Button size="lg" className="bg-[#6C5CE7] hover:bg-[#5A4BD1]">
-            Inizia
-          </Button>
+          {/* <Button size="lg" className="bg-[#6C5CE7] hover:bg-[#5A4BD1]">
+            Inizia Subito
+          </Button> */}
         </div>
         {/* <div className="aspect-[4/3] w-full"> */}
           {/* <BeforeAfterSlider
@@ -33,6 +33,13 @@ export const LandingTutos = () => {
             priority
           />
           </div>
+      </div>
+      <div className="text-center mb-16 space-y-12">
+        {/* <p className="text-purple-600 font-medium">FALLO IN SECONDI INVECE DI GIORNI</p> */}
+        <h1 className="text-4xl md:text-5xl font-bold ">
+          <span className="text-purple-600">Spazio Unico può aiutare te e la tua azienda a risparmiare </span>
+          <span className="text-white">Tempo e denaro. Inizia oggi.</span>
+        </h1>
       </div>
     </section>
   )
