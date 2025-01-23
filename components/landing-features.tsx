@@ -15,7 +15,7 @@ export const LandingFeatures = () => {
     {
       icon: <Image className="w-12 h-12 text-blue-400" />,
       title: "High-Quality Images",
-      description: "Scarica le immagini generate dall'intelligenza artificiale con una qualità cristallina.",
+      description: "Scarica le immagini generate dall&quot;intelligenza artificiale con una qualità cristallina.",
     },
     {
       icon: <Settings className="w-12 h-12 text-purple-500" />,
@@ -25,7 +25,7 @@ export const LandingFeatures = () => {
     {
       icon: <Clock className="w-12 h-12 text-blue-400" />,
       title: "Fast Image Rendering",
-      description: "Ottieni la tua prima immagine generata dall'intelligenza artificiale in meno di 60 secondi o meno.",
+      description: "Ottieni la tua prima immagine generata dall&quot;intelligenza artificiale in meno di 60 secondi o meno.",
     },
   ]
 
