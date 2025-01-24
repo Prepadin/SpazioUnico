@@ -36,8 +36,8 @@ export const LandingFeatures = () => {
       <div className="text-center mb-16">
         {/* <h2 className="text-purple-600 font-medium mb-4">CARATTERISTICHE PRIME SUL MERCATO</h2> */}
         <h1 className="text-4xl md:text-5xl font-bold">
-          <span className="text-purple-600">Il nostro programma &quotTutto ciò di cui hai bisogno&quot </span>
-          <span className="text-gray-900">AI Spazio Unico </span>
+          <span className="text-purple-600">Il nostro programma è tutto ciò di cui hai bisogno </span>
+          <span className="text-white">AI Spazio Unico </span>
           {/* <span className="text-purple-600">Attrezzo</span> */}
         </h1>
       </div>
