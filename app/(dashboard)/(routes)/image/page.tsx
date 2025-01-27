@@ -27,10 +27,10 @@ export default function ImagePage() {
   const [preview, setPreview] = useState<string | null>(null)
 
   const rooms: RoomDescription[] = [
-    {
-      image: "/bed.jpg?height=50&width=50",
-      description: "Una camera da letto Art Déco elegantemente arredata con un letto king size con biancheria geometrica, una sontuosa poltrona in velluto e un comodino a specchio che riflette l'opulenza della stanza. Le opere d'arte ispirate all'Art Déco aggiungono un tocco di glamour"
-    },
+    // {
+    //   image: "/bed.jpg?height=50&width=50",
+    //   description: "Una camera da letto Art Déco elegantemente arredata con un letto king size con biancheria geometrica, una sontuosa poltrona in velluto e un comodino a specchio che riflette l'opulenza della stanza. Le opere d'arte ispirate all'Art Déco aggiungono un tocco di glamour"
+    // },
     {
       image: "/bedroom_2.jpg?height=50&width=100",
       description: "Una camera da letto che emana il fascino country francese con un morbido letto imbottito, pareti decorate con carta da parati floreale e un armadio vintage in legno. Il lampadario di cristallo proietta una luce calda e invitante sulla stanza"
