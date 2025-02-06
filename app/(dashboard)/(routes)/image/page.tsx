@@ -216,10 +216,15 @@ export default function ImagePage() {
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setLoading(true);
+    updateLoadingStatus(true); // Start loading animation
+    setProgress(0); // Reset progress
+  
+    let interval: NodeJS.Timeout | null = null; // Declare interval variable
   
     if (!prompt || !selectedImage) {
       alert("Please provide both prompt and image");
       setLoading(false);
+      updateLoadingStatus(false); // Stop loading animation
       return;
     }
   
@@ -239,15 +244,27 @@ export default function ImagePage() {
           alert(response.data.error || "Failed to verify checks");
         }
         setLoading(false);
+        updateLoadingStatus(false); // Stop loading animation
         return;
       }
   
+      // Step 3: Start progress animation
+      interval = setInterval(() => {
+        setProgress((prevProgress) => {
+          if (prevProgress >= 100) {
+            clearInterval(interval!); // Clear interval when progress reaches 100%
+            updateLoadingStatus(false); // Stop loading animation
+            return 100;
+          }
+          return prevProgress + 100 / 20; // Increment progress every second
+        });
+      }, 1000);
+  
+      // Step 4: Generate the image with the translated prompt
       const formData = new FormData();
       formData.append("prompt", translatedPrompt);
       formData.append("image", selectedImage);
   
-      // Step 3: Generate the image with the translated prompt
-      setLoading(true);
       const imageResponse = await axios.post(
         `https://23f1-46-122-68-255.ngrok-free.app/generate_design/?prompt=${translatedPrompt}`,
         formData,
@@ -265,15 +282,17 @@ export default function ImagePage() {
       setGeneratedImage(imageUrl);
     } catch (error: any) {
       console.error("Error generating design:", error);
-      
+  
       if (error.response?.status === 429) {
         // API limit reached, redirect to settings page
         window.location.href = "http://localhost:3000/settings";
       } else {
-        alert("Hai utilizzato tutti i crediti. Aggiorna il tuo abbonamento per un uso continuato.");
+        alert("Porabili ste vse credite. Za nadalno uporabo nadgradite svojo naročnino.");
       }
     } finally {
       setLoading(false);
+      updateLoadingStatus(false); // Ensure loading animation stops
+      if (interval) clearInterval(interval); // Clear the interval if it's still running
     }
   };
 
@@ -348,6 +367,12 @@ return (
             <SelectTrigger className="w-full bg-[#0D0B14] border-0 text-white">
               <SelectValue placeholder="Scegli un tipo di stile" />
             </SelectTrigger>
+            <SelectItem value="vegetazione lussureggiante, legno naturale, mobili in rattan, motivi vivaci, morbide pareti bianche, opere d'arte a tema tropicale, luci calde, tende ariose e accenti di bambù.">
+              Un rifugio tropicale
+              </SelectItem>
+              <SelectItem value="Blu tenui, beige sabbia, legno sbiancato, texture naturali, tessuti leggeri, decorazioni nautiche, cesti di vimini, barriere d'aria, accenti di legni e molta luce naturale.">
+              Calma costiera
+              </SelectItem>
             <SelectContent>
               <SelectItem value="stile moderno, linee eleganti, toni neutri, forme geometriche, decorazioni domestiche minimali, monocromatico, bianco, beige, grigio, nero, legno, vetro, accenti metallici.">
               Moderno
@@ -375,12 +400,6 @@ return (
               </SelectItem>
               <SelectItem value="pianta aperta, soffitti alti, grandi finestre, materie prime come mattoni e cemento, mobili moderni, toni neutri, accenti di metallo nero, arredamento minimalista e opere d'arte audaci.">
               Loft urbano
-              </SelectItem>
-              <SelectItem value="vegetazione lussureggiante, legno naturale, mobili in rattan, motivi vivaci, morbide pareti bianche, opere d'arte a tema tropicale, luci calde, tende ariose e accenti di bambù.">
-              Un rifugio tropicale
-              </SelectItem>
-              <SelectItem value="Blu tenui, beige sabbia, legno sbiancato, texture naturali, tessuti leggeri, decorazioni nautiche, cesti di vimini, barriere d'aria, accenti di legni e molta luce naturale.">
-              Calma costiera
               </SelectItem>
               </SelectContent>
           </Select>
@@ -450,15 +469,14 @@ return (
             </div>
           )}
           <button
-      type="submit"
-      disabled={loading}
-      onClick={handleClick}
-      className={`mt-4 px-6 py-3 bg-blue-600 text-white rounded-md shadow-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 ${
-        loading ? 'opacity-50 cursor-not-allowed' : 'hover:bg-blue-700'
-      }`}
-    >
-      {loadingnow ? `Generazione in corso, attendere ... ${Math.round(progress)}%` : 'Generare'}
-    </button>
+  type="submit"
+  disabled={loading}
+  className={`mt-4 px-6 py-3 bg-blue-600 text-white rounded-md shadow-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 ${
+    loading ? 'opacity-50 cursor-not-allowed' : 'hover:bg-blue-700'
+  }`}
+>
+  {loadingnow ? `Generazione in corso, attendere ... ${Math.round(progress)}%` : 'Generare'}
+</button>
         </CardContent>
       </form>
     </Card>
