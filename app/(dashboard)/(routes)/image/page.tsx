@@ -78,6 +78,14 @@ export default function ImagePage() {
     //   description: "Una camera da letto Art Déco elegantemente arredata con un letto king size con biancheria geometrica, una sontuosa poltrona in velluto e un comodino a specchio che riflette l'opulenza della stanza. Le opere d'arte ispirate all'Art Déco aggiungono un tocco di glamour"
     // },
     {
+      image: "/living2.jpg?height=200&width=300",
+      description: "Un vivace soggiorno a tema tropicale, completo di comodi mobili in rattan, grandi piante frondose per portare l'aria aperta, cuscini luminosi per aggiungere colore e persiane in bambù per controllare la luce naturale"
+    },
+    {
+      image: "/livingg.jpg?height=200&width=300",
+      description: "Abbracciando un'estetica moderna della metà del secolo, l'elegante soggiorno presenta un antico tavolino in teak al centro, completato da una classica meridiana sul muro e un accogliente tappeto sotto i piedi per creare un'atmosfera calda e invitante."
+    },
+    {
       image: "/bedroom_2.jpg?height=50&width=100",
       description: "Una camera da letto che emana il fascino country francese con un morbido letto imbottito, pareti decorate con carta da parati floreale e un armadio vintage in legno. Il lampadario di cristallo proietta una luce calda e invitante sulla stanza"
     },
@@ -93,14 +101,7 @@ export default function ImagePage() {
       image: "/imga1.jpg?height=200&width=300",
       description: "Un'affascinante camera da letto principale Hollywood Regency che vanta una lussuosa testiera, mobili a specchio che riflettono l'eleganza, tessuti sontuosi in trame ricche e opulenti accenti dorati per un tocco di opulenza"
     },
-    {
-      image: "/living2.jpg?height=200&width=300",
-      description: "Un vivace soggiorno a tema tropicale, completo di comodi mobili in rattan, grandi piante frondose per portare l'aria aperta, cuscini luminosi per aggiungere colore e persiane in bambù per controllare la luce naturale"
-    },
-    {
-      image: "/livingg.jpg?height=200&width=300",
-      description: "Abbracciando un'estetica moderna della metà del secolo, l'elegante soggiorno presenta un antico tavolino in teak al centro, completato da una classica meridiana sul muro e un accogliente tappeto sotto i piedi per creare un'atmosfera calda e invitante."
-    }
+   
   ]
 
 
