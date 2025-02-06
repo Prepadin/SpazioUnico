@@ -367,13 +367,13 @@ return (
             <SelectTrigger className="w-full bg-[#0D0B14] border-0 text-white">
               <SelectValue placeholder="Scegli un tipo di stile" />
             </SelectTrigger>
+            <SelectContent>
             <SelectItem value="vegetazione lussureggiante, legno naturale, mobili in rattan, motivi vivaci, morbide pareti bianche, opere d'arte a tema tropicale, luci calde, tende ariose e accenti di bambù.">
               Un rifugio tropicale
               </SelectItem>
               <SelectItem value="Blu tenui, beige sabbia, legno sbiancato, texture naturali, tessuti leggeri, decorazioni nautiche, cesti di vimini, barriere d'aria, accenti di legni e molta luce naturale.">
               Calma costiera
               </SelectItem>
-            <SelectContent>
               <SelectItem value="stile moderno, linee eleganti, toni neutri, forme geometriche, decorazioni domestiche minimali, monocromatico, bianco, beige, grigio, nero, legno, vetro, accenti metallici.">
               Moderno
               </SelectItem>
