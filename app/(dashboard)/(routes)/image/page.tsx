@@ -261,14 +261,31 @@ export default function ImagePage() {
         });
       }, 1000);
   
-      // Step 4: Generate the image with the translated prompt
-      const formData = new FormData();
-      formData.append("prompt", translatedPrompt);
-      formData.append("image", selectedImage);
+      // Step 4: Upload the selected image to Cloudinary
+      const selectedImageFormData = new FormData();
+      selectedImageFormData.append("file", selectedImage);
+      selectedImageFormData.append("upload_preset", "opremimennow"); // Replace with your upload preset
+  
+      const selectedImageResponse = await fetch(
+        `https://api.cloudinary.com/v1_1/daui0fq95/image/upload`,
+        {
+          method: "POST",
+          body: selectedImageFormData,
+        }
+      );
+  
+      const selectedImageData = await selectedImageResponse.json();
+      const selectedImageUrl = selectedImageData.secure_url; // URL of the uploaded selected image
+      console.log("Selected Image uploaded to Cloudinary:", selectedImageUrl);
+  
+      // Step 5: Generate the AI image
+      const formDataForDesign = new FormData();
+      formDataForDesign.append("prompt", translatedPrompt);
+      formDataForDesign.append("image", selectedImage);
   
       const imageResponse = await axios.post(
         `https://7d83-46-122-103-122.ngrok-free.app/generate_design/?prompt=${translatedPrompt}`,
-        formData,
+        formDataForDesign,
         {
           headers: {
             "Content-Type": "multipart/form-data",
@@ -278,9 +295,30 @@ export default function ImagePage() {
         }
       );
   
-      // Create a temporary URL for the generated image
-      const imageUrl = URL.createObjectURL(imageResponse.data);
-      setGeneratedImage(imageUrl);
+      // Step 6: Upload the AI-generated image to Cloudinary
+      const aiGeneratedImageBlob = imageResponse.data;
+      const aiGeneratedImageFile = new File([aiGeneratedImageBlob], "ai_generated_image.png", {
+        type: "image/png",
+      });
+  
+      const aiGeneratedImageFormData = new FormData();
+      aiGeneratedImageFormData.append("file", aiGeneratedImageFile);
+      aiGeneratedImageFormData.append("upload_preset", "opremimennow"); // Replace with your upload preset
+  
+      const aiGeneratedImageResponse = await fetch(
+        `https://api.cloudinary.com/v1_1/daui0fq95/image/upload`,
+        {
+          method: "POST",
+          body: aiGeneratedImageFormData,
+        }
+      );
+  
+      const aiGeneratedImageData = await aiGeneratedImageResponse.json();
+      const aiGeneratedImageUrl = aiGeneratedImageData.secure_url; // URL of the uploaded AI-generated image
+      console.log("AI-generated Image uploaded to Cloudinary:", aiGeneratedImageUrl);
+  
+      // Step 7: Set the AI-generated image URL in state
+      setGeneratedImage(aiGeneratedImageUrl);
     } catch (error: any) {
       console.error("Error generating design:", error);
   
